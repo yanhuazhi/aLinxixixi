@@ -1,0 +1,97 @@
+body{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+/* .first{
+	position: absolute;
+	overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: #ffe;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+} */
+
+.second{
+	/* display: none; */
+	overflow: hidden;
+	position: absolute;
+    /* position: relative; */
+    height: 100%;
+	width: 100%;
+	/* width:670px; */
+	/* height:625px; */
+    background-color: #ffe;
+	z-index: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#loveHeart {
+	/* position: absolute; */
+	position: relative;
+	margin: 300px auto 0 auto;
+	/* float: left; */
+	width:670px;
+	/* width: 100%; */
+	height: 625px;
+}
+
+#garden {
+	width: 100%;
+	height: 100%;
+}
+
+#elapseClock {
+	text-align: right;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#words {
+	font-family: "sans-serif";
+	width: 500px;
+	font-size: 24px;
+	color:#666;
+}
+
+#messages{
+	display: none;
+}
+
+#elapseClock .digit{
+	font-family: "digit";
+	font-size: 36px;
+}
+
+#loveu{
+	padding: 5px;
+	font-size: 22px;
+	margin-top: 80px;
+	margin-right: 120px;
+	text-align: right;
+	display: none;
+}
+
+#loveu .signature{
+	margin-top: 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#clickSound{
+	display:none;
+}
